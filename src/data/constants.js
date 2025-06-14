@@ -1,5 +1,5 @@
 export const BRAND = {
-  name: 'Cora Web',
+  name: 'CORA Web',
   tagline: 'Diseño y Desarrollo Web Profesional',
   description: 'Creamos páginas web profesionales para negocios pequeños, consultorios y marcas locales que buscan digitalizarse.'
 }

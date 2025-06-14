@@ -18,10 +18,15 @@ const Header = ({ activeSection, scrollToSection }) => {
               onClick={() => scrollToSection('inicio')}
               className="flex items-center space-x-4 text-gray-900 hover:text-blue-600 transition-colors group"
             >
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-blue-200 transition-all duration-300">
-                <span className="text-white font-bold text-xl">C</span>
-              </div>
-              <span className="font-bold text-3xl tracking-tight">{BRAND.name}</span>
+              
+              <span className="flex items-center ">
+                <img
+                  src="/src/assets/CoraLogo.png"
+                  alt="Logo"
+                  className="w-16 h-16 rounded-full object-cover transition-transform duration-200 transform group-hover:scale-105"
+                />
+                <span className="font-bold text-3xl tracking-tight">{BRAND.name}</span>
+              </span>
             </button>
           </div>
 
