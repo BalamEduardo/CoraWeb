@@ -21,7 +21,7 @@ const Header = ({ activeSection, scrollToSection }) => {
               
               <span className="flex items-center ">
                 <img
-                  src="/src/assets/CoraLogo.png"
+                  src="./src/assets/CoraLogo.png"
                   alt="Logo"
                   className="w-16 h-16 rounded-full object-cover transition-transform duration-200 transform group-hover:scale-105"
                 />

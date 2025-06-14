@@ -122,7 +122,7 @@ const Hero = () => {
                 {/* Main hero image */}
                 <div className="relative z-20 w-full max-w-lg">
                   <img 
-                    src="/src/assets/EstiloHero.png" 
+                    src="./src/assets/EstiloHero.png" 
                     alt="Digital Excellence Illustration" 
                     className="w-full h-auto object-contain animate-float border-2 border-blue-500/60 rounded-3xl shadow-lg shadow-blue-600/100"
                   
